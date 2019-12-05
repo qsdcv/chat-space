@@ -57,4 +57,6 @@ gem 'font-awesome-sass'
 group :development, :test, :production do
   gem 'devise'
 end
-  
+
+gem 'carrierwave'
+gem 'mini_magick'
