@@ -63,10 +63,11 @@ group :development, :test, :production do
   gem 'devise'
 end
 
-gem 'carrierwave'
-gem 'mini_magick'
-
 group :production do
   gem 'unicorn', '5.4.1'
 end
+
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog-aws'
 
